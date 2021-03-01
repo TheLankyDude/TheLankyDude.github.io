@@ -1,32 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <head>
-<title>Random Article Generator</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+<link rel="shortcut icon" href="lankysite favicon.ico" type="image/x-icon">
+<title>Lankysite Homepage</title>
 </head>
 
-<link rel="stylesheet" href="Styles.css">
+<html>
+
+<link rel="stylesheet" href="indexStyles.css">
 
 <body>
-<h1 align="center"><BIG><u><b>Random Article Generator</b></u></BIG></h1>										  <!--line 1--> 
-<h2 align="center"><u><b>Click here for a random article</b></u></h2>											  <!--line 2-->
+
+<h1 align="center"><BIG><u><b>Lankysite.co.uk</b></u></BIG></h1>
+<h2 align="center"><u><b>Welcome to the home of TheLankyDude's projects</b></u></h2>
 
 <script type="text/javascript">
 
-var links = new Array();
-links[0] = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-links[1] = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";														   //links
-links[2] = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-links[3] = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-
-function openLink() {
-  var i = Math.floor(Math.random() * links.length);
-  parent.location = links[i];
+function download() {
+  parent.location = "http://TheLankyDude.github.io/downloads/ResinCalc.apk";
   return false;
 }
 </script>
 
-<h2 align="center"><button class="button button1" onclick="openLink();" class='btn'>Click Me</button></h2>		   <!--button code-->
+<h2 align="left"><button class="button btnOpenRnd" onclick="download();" class='btn'>Download</button></h2>
 
 </body>
 </html>
