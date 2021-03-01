@@ -1,0 +1,19 @@
+
+body {
+background: url("images/lankysite background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+font-size: 28px;
+color: var(--text-colour);
+}
+
+.btnOpenRnd {
+ height:75px;
+    width:250px;
+    background: #000000;
+    color: #FFFFFF;
+    font-size:20px;
+}
