@@ -1,1 +1,10 @@
+:root {
+--text-colour: #000080;
+}
 
+body {
+background-color: #b76e79;
+background-size: 100%;
+font-size: 48px;
+color: var(--text-colour);
+}
