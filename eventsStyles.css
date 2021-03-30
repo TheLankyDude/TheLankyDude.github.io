@@ -1,10 +1,10 @@
-:root {
---text-colour: #000080;
-}
-
 body {
-background-color: #b76e79;
-background-size: 100%;
+background: url("images/lankysite background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 font-size: 48px;
 color: var(--text-colour);
 }
