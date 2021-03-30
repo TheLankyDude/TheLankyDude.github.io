@@ -1,6 +1,14 @@
 body {
-background-color: #b76e79;
+background-color: #eee5da;
 background-size: 100%;
-font-size: 48px;
+font-size: 20px;
 color: var(--text-colour);
+}
+
+.btnOpenEvent {
+ height:30px;
+    width:60px;
+    background: #d57444;
+    color: #FFFFFF;
+    font-size:20px;
 }
